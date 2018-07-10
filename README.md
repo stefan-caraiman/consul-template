@@ -1413,6 +1413,14 @@ This can be combined with other helpers, for example:
 # ...{{ end }}
 ```
 
+##### `parseString`
+
+Takes the given  and parses it as a string:
+
+```liquid
+{{ 1 | parseString }}
+```
+
 ##### `parseJSON`
 
 Takes the given input (usually the value from a key) and parses the result as

@@ -724,6 +724,12 @@ func trimSpace(s string) (string, error) {
 	return strings.TrimSpace(s), nil
 }
 
+// parseString parses a int into a string
+func parseString(value interface{}) (string, error) {
+	v := fmt.Sprintf("%v", value)
+	return v, nil 
+}
+
 // parseBool parses a string into a boolean
 func parseBool(s string) (bool, error) {
 	if s == "" {

@@ -237,6 +237,7 @@ func funcMap(i *funcMapInput) template.FuncMap {
 		"loop":            loop,
 		"join":            join,
 		"trimSpace":       trimSpace,
+		"parseString":     parseString,
 		"parseBool":       parseBool,
 		"parseFloat":      parseFloat,
 		"parseInt":        parseInt,
